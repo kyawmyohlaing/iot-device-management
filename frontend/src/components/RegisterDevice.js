@@ -3,6 +3,7 @@ import DeviceManager, { getDefaultAccount } from '../DeviceManager';
 
 import elliptic from 'elliptic';
 //import ethWallet from 'ethereumjs-wallet';
+//install ethereumjs-wallet --save
 
 import { sha3, addHexPrefix, setLengthLeft } from 'ethereumjs-util';
 import { merkleRoot } from 'merkle-tree-solidity';
