@@ -179,7 +179,7 @@ class App extends Component {
             </Layout>
           </Content>
           <Footer style={{ textAlign: 'center' }}>
-            IoT Device Management &copy; 2018 Created by Silvio Simunic
+            IoT Device Management &copy; 2020 Created by MMSecure
         </Footer>
         </Layout>
       </Router>
