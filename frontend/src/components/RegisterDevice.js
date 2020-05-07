@@ -2,7 +2,8 @@ import getWeb3 from '../utils/web3';
 import DeviceManager, { getDefaultAccount } from '../DeviceManager';
 
 import elliptic from 'elliptic';
-import ethWallet from 'ethereumjs-wallet';
+//import ethWallet from 'ethereumjs-wallet';
+
 import { sha3, addHexPrefix, setLengthLeft } from 'ethereumjs-util';
 import { merkleRoot } from 'merkle-tree-solidity';
 
@@ -11,6 +12,7 @@ import './RegisterDevice.css';
 
 import { Steps, Button, Input, Card, Spin, Alert, Divider, Form, Icon, Dropdown, Menu, message, notification } from 'antd';
 
+var ethWallet = require('ethereumjs-wallet');
 const Step = Steps.Step;
 const { Meta } = Card;
 const EC = elliptic.ec;
